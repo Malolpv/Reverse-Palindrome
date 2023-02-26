@@ -1,3 +1,3 @@
-# Appli_reverse_palindrome
+# Reverse palindrome evaluation
 
-Exo
+Evaluation exercice de test 
