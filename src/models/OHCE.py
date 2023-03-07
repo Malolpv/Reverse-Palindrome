@@ -74,7 +74,7 @@ class OHCE:
         :param given_param: parametre dont on est pas sur du type
         :param expected_type: type attendu
         """
-        if isinstance(given_param, expected_type):
+        if not isinstance(given_param, expected_type):
             raise ValueError
 
     def execute(self, string: str):
